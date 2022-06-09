@@ -1,8 +1,35 @@
 * {
   font-family: "Rubik", sans-serif;
+  margin-top: 0;
 }
 :root {
   --text-menu: #4a4a4a;
   --background: #3cdbc0;
   --main-text: #ffffff;
+}
+.header {
+  width: 100%;
+  height: 15%;
+  font-size: 16px;
+  color: var(--text-menu);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  background-color: white;
+  padding-top: 10px;
+}
+.header .menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.blog {
+  margin-right: 20px;
+}
+.main {
+  width: 100%;
+  height: 100vw;
+  padding-top: 95px;
+  background-color: var(--background);
 }
