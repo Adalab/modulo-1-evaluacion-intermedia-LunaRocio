@@ -39,3 +39,26 @@
   align-items: center;
   text-align: center;
 }
+.main .title {
+  max-width: min-content;
+}
+
+@media all and (min-width: 768px) {
+  .header {
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .contact {
+    margin-right: 60px;
+  }
+  .img-logo {
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .main {
+    font-size: 40px;
+  }
+}
